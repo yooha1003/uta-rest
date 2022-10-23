@@ -1,19 +1,29 @@
 # <font size=5><br>_**<font color=red>UTA-REST</br></font> <font size=4><font color=red>(U)</font>nified toolbox for <font color=red>(T)</font>ailored <font color=red>(A)</font>nalysis of <font color=red>(RE)</font>sting-state functional and Structural MRI datase<font color=red>(T)</font>**_</font>
 
 ## <font color=green>_Feature_</font>
-<font size=4>A easy and powerful pipeline script for resting-state fMRI dataset
+<font size=4>An easy and powerful pipeline script for resting-state fMRI dataset
 + [uta01]: Brain extraction and cortical thickness analysis using ANTs
+
+
 ![CNEO_001_t1_ss](/assets/CNEO_001_t1_ss.png)
-![ct_CorticalThicknessTiledMosaic](/assets/ct_CorticalThicknessTiledMosaic.png)
+![ct_CorticalThicknessTiledMosaic](/assets/ct_CorticalThicknessTiledMosaic.png)  
 + [uta02]: VBM analysis and spatial normalization using customized strategy [(Choi et al., 2021)](https://academic.oup.com/cercorcomms/article/2/2/tgab037/6290107)
+
+
 ![CNEO_001_t1_vbm_gm](/assets/CNEO_001_t1_vbm_gm.gif)![CNEO_001_t1_vbm_wm](/assets/CNEO_001_t1_vbm_wm.gif)
 + [uta03]: fMRI data preprocessing
+
+
 ![CNEO_001_rest_ext](/assets/CNEO_001_rest_ext_6yqq9wupj.gif)
 + [uta04]: rs-fMRI map construction using AFNI
+
+
 ![CNEO_001_rest_mALFF](/assets/CNEO_001_rest_mALFF.png)
 + [uta05]: Atlas based data extraction and merged into a single csv file (default = AAL3 and DKT)
+
 ![CNEO_001_rest_atlas_gm](/assets/CNEO_001_rest_atlas_gm.png)
 ![CNEO_001_rest_atlas_wm](/assets/CNEO_001_rest_atlas_wm.png)
+
 
 ## <font color=yellow>Description</font>
 + Shell based script program
@@ -32,13 +42,13 @@
 + antsCorticalThickness.sh
 
 ## Preparation
-+ Atlas text file
++ Atlas text file  
 ![Screen Shot 2022-10-23 at 11.08.20 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.08.20%20PM.png)
-+ Template images
++ Template images  
 ![Screen Shot 2022-10-23 at 11.10.49 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.10.49%20PM.png)
-+ MNI spaced images (included in UTA-REST)
++ MNI spaced images (included in UTA-REST)  
 ![Screen Shot 2022-10-23 at 11.26.06 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.26.06%20PM.png)
-+ Processing step text file
++ Processing step text file  
 ![Screen Shot 2022-10-23 at 11.17.56 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.17.56%20PM.png)
 
 ## Usage

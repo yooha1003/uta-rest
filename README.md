@@ -55,10 +55,10 @@
 + <b>Run</b>
 ```
 uta-rest.sh --subjid=subject01 \
-              --atlas=atlas_list.txt \
-              --template=../bin/template \
-              --mni=../bin/mni \
-              --proc=proc_list.txt
+            --atlas=atlas_list.txt \
+            --template=../bin/template \
+            --mni=../bin/mni \
+            --proc=proc_list.txt
 ```
 
 + <b>Help</b>

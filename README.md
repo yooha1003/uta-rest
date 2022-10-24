@@ -1,4 +1,4 @@
-# <font size=5><br>_**<font color=red>UTA-REST</br></font> <font size=4><font color=red>(U)</font>nified toolbox for <font color=red>(T)</font>ailored <font color=red>(A)</font>nalysis of <font color=red>(RE)</font>sting-state functional and Structural MRI datase<font color=red>(T)</font>**_</font>
+# <font size=5><br>_**<font color=red>UTA-REST</br></font> <font size=4><font color=red>(U)</font>nified toolbox for <font color=red>(T)</font>ailored <font color=red>(A)</font>nalysis of <font color=red>(RE)</font>sting-state functional and <font color=red>(S)</font>tructural MRI datase<font color=red>(T)</font>**_</font>
 
 ## <font color=green>_Feature_</font>
 <font size=4>An easy and powerful pipeline script for resting-state fMRI dataset
@@ -58,14 +58,19 @@ uta-rest.sh --subjid=subject01 \
             --atlas=atlas_list.txt \
             --template=../bin/template \
             --mni=../bin/mni \
-            --proc=proc_list.txt
+            --proc=proc.txt
 ```
 
 + <b>Help</b>
 ```
 uta-rest.sh --help
 ```
-![Screen Shot 2022-10-23 at 5.58.56 PM](/assets/Screen%20Shot%202022-10-23%20at%205.58.56%20PM.png)
+![Screen Shot 2022-10-23 at 5.58.56 PM](/assets/Screen%20Shot%202022-10-23%20at%205.58.56%20PM.png)  
+
+## Inputs
++ MRI dataset (structural and rs-functional) with fixed names
+![Screen Shot 2022-10-24 at 6.35.16 PM](/assets/Screen%20Shot%202022-10-24%20at%206.35.16%20PM.png)
+
 
 ## Outputs
 + <font color=yellow>A single merged text file of all measurements</font>

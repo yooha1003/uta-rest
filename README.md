@@ -19,7 +19,7 @@
 
 
 ![CNEO_001_rest_mALFF](/assets/CNEO_001_rest_mALFF.png)
-+ [uta05]: Atlas based data extraction and merged into a single csv file (default = AAL3 and DKT)
++ [uta05]: Atlas based data extraction and merged into a single csv file (default = AAL and JHU-ICBM)
 
 ![CNEO_001_rest_atlas_gm](/assets/CNEO_001_rest_atlas_gm.png)
 ![CNEO_001_rest_atlas_wm](/assets/CNEO_001_rest_atlas_wm.png)

@@ -39,10 +39,10 @@
 + [ANTs](http://stnava.github.io/ANTs/)
 
 ### &nbsp;&nbsp;_Script_
-+ antsCorticalThickness.sh
++ [antsCorticalThickness.sh](https://github.com/ANTsX/ANTs/tree/master/Scripts)
 
 ## Preparation
-+ Atlas text file  
++ Atlas text file ([AAL](https://www.gin.cnrs.fr/en/tools/aal/), [JHU-ICBM](https://neurovault.org/images/1401/), etc)
 ![Screen Shot 2022-10-23 at 11.08.20 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.08.20%20PM.png)
 + Template images  
 ![Screen Shot 2022-10-23 at 11.10.49 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.10.49%20PM.png)

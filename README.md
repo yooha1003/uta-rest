@@ -69,7 +69,7 @@ uta-rest.sh --help
 
 ## Inputs
 + MRI dataset (structural and rs-functional) with fixed names
-![Screen Shot 2022-10-24 at 6.35.16 PM](/assets/Screen%20Shot%202022-10-24%20at%206.35.16%20PM_wd15ynpam.png)
+![Screen Shot 2022-10-24 at 6.35.16 PM](/assets/Screen%20Shot%202022-10-24%20at%206.35.16%20PM_0k5mh4o1s.png)
 
 
 ## Outputs

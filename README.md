@@ -83,6 +83,7 @@ uta-rest.sh --help
 ![Screen Shot 2022-10-23 at 11.23.25 PM](/assets/Screen%20Shot%202022-10-23%20at%2011.23.25%20PM.png)
 
 ## Version history
++ Version 0.11 : modified main script for dataset without 'rest.nii.gz' (2022.11.7.)
 + Version 0.10 : The script release (2022.10.23)
 
 ## _Contact_

@@ -30,7 +30,8 @@ Usage() {
       [08]  utaS05.sh: Atlas based data extraction and merged into a single csv file (default = AAL3 and DKT)
 
   [Version History]
-    Version 0.1:  the script release (2022.10.25.)
+    Version 0.11:  modified main script for dataset without 'rest.nii.gz' (2022.11.7.)
+    Version 0.10:  the script release (2022.10.25.)
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * *  "
 
@@ -102,7 +103,15 @@ time_start_main=`date +%s`
 
 ################ preparation #######################################################################################################
 ## create input list file
-# ls | sed -n 's/\.nii.gz$//p' > $PWD/${sub_id}_input_list.txt
+# first check for rest.nii.gz file
+if [ -f "$PWD/${sub_id}_rest.nii.gz" ]; then
+  echo "[Check] *_rest.nii.gz was found "
+else
+  echo "No rest.nii.gz file was found, the empty file is being constructed"
+  touch $PWD/${sub_id}_rest.nii.gz
+fi
+
+# file list check
 if [ -f "$PWD/${sub_id}_input_list.txt" ]; then
   echo "
   ## Skip to create input file list"
